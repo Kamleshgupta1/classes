@@ -85,27 +85,7 @@
                 </div>
             </div>
             <div class="content-fluid">
-                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjIvNqTqJDhAhXWbSsKHUc4DGIQjRx6BAgBEAU&url=https%3A%2F%2Fwww.elastic.co%2Fblog%2Fcategorizing-images-with-deep-learning-into-elasticsearch&psig=AOvVaw0RMDFNKEMXCl3Yi9bmchcy&ust=1553157328473642" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjIvNqTqJDhAhXWbSsKHUc4DGIQjRx6BAgBEAU&url=https%3A%2F%2Fwww.elastic.co%2Fblog%2Fcategorizing-images-with-deep-learning-into-elasticsearch&psig=AOvVaw0RMDFNKEMXCl3Yi9bmchcy&ust=1553157328473642" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjIvNqTqJDhAhXWbSsKHUc4DGIQjRx6BAgBEAU&url=https%3A%2F%2Fwww.elastic.co%2Fblog%2Fcategorizing-images-with-deep-learning-into-elasticsearch&psig=AOvVaw0RMDFNKEMXCl3Yi9bmchcy&ust=1553157328473642" class="d-block w-100" alt="...">
-                    </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
+                
             </div>
         </div>
     </body>

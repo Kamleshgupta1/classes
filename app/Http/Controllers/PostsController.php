@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use App\Post;
+use App\banner;
 use DB;
 
 
@@ -23,7 +24,11 @@ class PostsController extends Controller
     public function index()
     {
         $posts =  Post::orderBy('created_at','desc')->paginate(2);
-        return view('courses.index')->with('posts',$posts);
+        return view('posts.index')->with('posts',$posts);
+        
+        return banner::All();
+        return view('banners.index');
+        
     }
 
     /**
@@ -73,8 +78,8 @@ class PostsController extends Controller
      */
     public function show($id)
     {
-        $post = Post::find($id);
-        return view('courses.show')->with('post',$post);
+        $banners = banner::All();
+        return view('banners.index')->with('banners', $banners);
     }
 
     /**
