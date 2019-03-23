@@ -149,5 +149,37 @@
             </div>
         </div>
   
+        <!-- how we work -->
+<section class="how py-5" id="how">
+	<div class="container">
+		<div class="inner-grid py-5">
+			<h3 class="heading text-center mb-3">Why Choose Us</h3>
+			<div class="row text-center">
+				<div class="col-md-4 how-icon mt-4">
+					<span class="fa fa-universal-access" aria-hidden="true"></span>
+					<div class=" how-grid">
+						<h3 class="mt-3">Trust</h3>
+						
+					</div>
+				</div>
+				<div class="col-md-4 how-icon1 mt-4">
+					<span class="fa fa-tty" aria-hidden="true"></span>
+					<div class="how-grid">
+						<h3 class="mt-3">Best Service</h3>
+						
+					</div>
+				</div>
+				<div class="col-md-4 how-icon2 mt-4">
+					<span class="fa fa-trophy" aria-hidden="true"></span>
+					<div class="how-grid">
+						<h3 class="mt-3">Best Quality</h3>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+        
     </body>
 </html>

@@ -140,3 +140,35 @@
 .img-fluid{
 	margin:0px;
 }   
+
+/*-- how we work --*/
+.how-grid h3 {
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: .5px;
+    line-height: 32px;
+}
+.how {
+    background: #ef6926;
+}
+.inner-grid {
+    background: #fff;
+    box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
+    box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.4);
+    padding: 0 4em;
+}
+.how-icon span.fa,.how-icon1 span.fa,.how-icon2 span.fa {
+    font-size: 40px;
+}
+
+.how-icon span.fa {
+    color: #30c39e;
+}
+.how-icon1 span.fa {
+    color: #f85a40;
+}
+.how-icon2 span.fa {
+    color: #0389ff;
+}
+/*-- how we work --*/
