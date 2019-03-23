@@ -45,7 +45,7 @@
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
-        <i class="fas fa-bars"></i>
+        <i class="fa fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
@@ -92,21 +92,28 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="/storage/cover_images/noimage.jpg" alt="First slide">
+      <img class="d-block w-100" src="/storage/cover_images/img1.jpg" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
         <h5>.hgdfh..</h5>
         <p>..fhfh.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="/storage/cover_images/noimage.jpg" alt="Second slide">
+      <img class="d-block w-100" src="/storage/cover_images/img2.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
         <h5>.fhdf..</h5>
         <p>..fghdf.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="/storage/cover_images/noimage.jpg" alt="Third slide">
+      <img class="d-block w-100" src="/storage/cover_images/img3.jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>..fdgfdgfhfg.</h5>
+        <p>.hhhf..</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/storage/cover_images/img4.jpg" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
         <h5>..fdgfdgfhfg.</h5>
         <p>.hhhf..</p>
