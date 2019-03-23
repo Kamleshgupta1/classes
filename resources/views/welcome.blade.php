@@ -22,6 +22,20 @@
         <!-- Custom fonts for this template -->
         <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
 
+        <script>
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("mainNav").style.padding = "0px 0px";
+            //document.getElementById("logo").style.fontSize = "25px";
+          } else {
+            document.getElementById("mainNav").style.padding = "30px 10px";
+           // document.getElementById("logo").style.fontSize = "35px";
+          }
+        }
+        </script>
     </head>
     <body id="page-top">
         
