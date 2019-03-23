@@ -181,5 +181,27 @@
 	</div>
 </section>
         
+<!-- subscribe -->
+<section class="subscribe">
+	<div class="subscribe-overlay py-5">
+		<div class="container py-md-5">
+			<div class="row subscribe-grids">
+				<div class="col-lg-6">
+				   <h3 class="heading">Let's spread it...</h3>
+				</div>
+				<div class="col-lg-6 mt-lg-0 mt-sm-5 mt-4">
+					
+					<p class="mb-4">Get involved and stay up to date with what's happening.</p>
+					<form action="#" method="post" class="mt-4">  
+						<input type="text" name="Name" placeholder="Full Name" required="">
+						<input type="email" name="Email" class="mr-0" placeholder="Enter Email" required="">
+						<button type="submit" class="btn mt-2"> Subscribe</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+        
     </body>
 </html>
