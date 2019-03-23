@@ -242,9 +242,24 @@
 				<li><a href="#"><span class="fa fa-twitter icon_twitter"></span></a></li>
 				<li><a href="#"><span class="fa fa-google-plus icon_google-plus"></span></a></li>
 				<li><a href="#"><span class="fa fa-linkedin icon_linkedin"></span></a></li>
-				<li><a href="#"><span class="fa fa-dribbble icon_dribbble"></span></a></li>
 			</ul>
 		</div>
+        <div class="row text-center">
+            <div class="col-4">
+                <span class="copyright">Copyright &copy; This Website 2019</span>
+            </div>  
+            <div class="col-4">
+                <h5>Hi, this is Kamlesh Gupta. Contact me for your application.</h5>
+            </div>
+            <div class="middle col-4">
+			<ul class="social mb-4">
+				<li><a href="#"><span class="fa fa-facebook icon_facebook"></span></a></li>
+				<li><a href="#"><span class="fa fa-twitter icon_twitter"></span></a></li>
+				<li><a href="#"><span class="fa fa-google-plus icon_google-plus"></span></a></li>
+				<li><a href="#"><span class="fa fa-linkedin icon_linkedin"></span></a></li>
+			</ul>
+		</div>
+        </div>
 	</div>
 </footer>
         
