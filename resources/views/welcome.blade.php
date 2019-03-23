@@ -42,7 +42,7 @@
         <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><h3><img class="logos" src="/storage/cover_images/noimage.jpg"> Pace Tutorial</h3></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fa fa-bars"></i>
@@ -228,8 +228,8 @@
 <!-- footer -->
 <footer class="py-sm-5 py-4">
 	<div class="container py-md-3">
-		<div class="footer-grids text-center" style="color:#fff;">
-			<a href="#!" style="color:#fff;"><h3><img class="logos" src="/storage/cover_images/noimage.jpg"> Pace Tutorial</h3></a>
+		<div class="footer-grids text-center" style="color:#ef6926;">
+			<a href="#!" style="color:#ef6926;"><h3><img class="logos" src="/storage/cover_images/noimage.jpg"> Pace Tutorial</h3></a>
 		</div>
 		<!-- to top -->
 		<div class="top-icon text-center mt-2">
