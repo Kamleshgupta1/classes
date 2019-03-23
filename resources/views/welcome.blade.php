@@ -19,8 +19,9 @@
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         
-        
-      
+        <!-- Custom fonts for this template -->
+        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+
     </head>
     <body id="page-top">
         
