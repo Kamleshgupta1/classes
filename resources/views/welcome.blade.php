@@ -53,10 +53,13 @@
             <a class="nav-link js-scroll-trigger" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a class="nav-link js-scroll-trigger" href="#how">Scope</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
             @auth
@@ -74,21 +77,18 @@
               </li>
                 @endif
             @endauth
-          
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- Header -->
-    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -132,7 +132,7 @@
 
         
   
-<div class="row m-5">
+<div class="row m-5" id="services">
             <div class="col-8">
 				<h4>We provide the best service...</h4>
 				<div class="tab-main mx-auto">
@@ -204,7 +204,7 @@
 </section>
         
 <!-- subscribe -->
-<section class="subscribe">
+<section class="subscribe" id="contact">
 	<div class="subscribe-overlay py-5">
 		<div class="container py-md-5">
 			<div class="row subscribe-grids">
