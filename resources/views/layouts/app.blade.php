@@ -18,6 +18,16 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    
+      <link rel="icon" sizes="192x192" href="image/profile.png">
+      <!--Chrome, Firefox OS and Opera-->
+      <meta name="theme-color" content="#1de9b6">
+      <!--Windows Phone-->
+      <meta name="msapplication-navbutton-color" content="#1de9b6">
+      <!--iOS Safari-->
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="#1de9b6">
+    
 </head>
 <body>
     <div id="app">
