@@ -24,3 +24,6 @@ Route::resources([
     'posts' => 'PostsController',
     'banners' => 'PostsController'
 ]);
+
+Route::get('contact-us', 'ContactUSController@contactUS');
+Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@contactUSPost']);
