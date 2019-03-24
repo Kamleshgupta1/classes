@@ -27,3 +27,6 @@ Route::resources([
 
 Route::get('contact-us', 'ContactUSController@contactUS');
 Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@contactUSPost']);
+
+Route::get('category-tree-view',['uses'=>'CategoryController@manageCategory']);
+Route::post('add-category',['as'=>'add.category','uses'=>'CategoryController@addCategory']);

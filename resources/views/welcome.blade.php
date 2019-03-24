@@ -209,22 +209,21 @@
 		<div class="container py-md-5">
 			<div class="row subscribe-grids">
 				<div class="col-lg-6">
-				   <h3 class="heading">Let's move together for better future.</h3><br>
+				   <h5 class="heading intro">Let's move together for better future.</h5><br>
                    <br><br>
                    <h3>Contact via following...</h3>
                    <div class="row mt-5">
                         <div class="col-3">
-                            <a href="#"><span class="fa fa-whatsapp" style="font-size:60px;color:green;background-color:white;border-radius:10%;padding:7px"></span></a>
+                            <a href="https://wa.me/+919833395359/?"><span class="fa fa-whatsapp" style="font-size:60px;color:green;background-color:white;border-radius:10%;padding:7px"></span></a>
                         </div>
                         <div class="col-3">
-                            <a href="#"><span class="fa fa-envelope-square" style="font-size:60px;color:red;background-color:white;border-radius:10%;padding:7px"></span></a>
+                            <a href="mailto:kamleshguptaom@gmail.com?cc=kamleshguptaom@gmail.com"><span class="fa fa-envelope-square" style="font-size:60px;color:red;background-color:white;border-radius:10%;padding:7px"></span></a>
                         </div>
                    </div>    
-                
 				</div>
 				<div class="col-lg-6 mt-lg-0 mt-sm-5 mt-4">
 					
-					<p class="mb-4">Get involved and stay up to date with what's happening.</p>
+					<h5 class="mb-4 intro">Get involved and stay up to date with what's happening.</h5>
 					@if(Session::has('success'))
                         <div class="alert alert-success">
                           {{ Session::get('success') }}
