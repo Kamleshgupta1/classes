@@ -205,52 +205,63 @@
         
 <!-- subscribe -->
 <section class="subscribe" id="contact">
-	<div class="subscribe-overlay py-5">
+	<div class="subscribe-overlay py-1">
 		<div class="container py-md-5">
 			<div class="row subscribe-grids">
 				<div class="col-lg-6">
-				   <h3 class="heading">Let's spread it...</h3>
+				   <h3 class="heading">Let's move together for better future.</h3><br>
+                   <br><br>
+                   <h3>Contact via following...</h3>
+                   <div class="row mt-5">
+                        <div class="col-3">
+                            <a href="#"><span class="fa fa-whatsapp" style="font-size:60px;color:green;background-color:white;border-radius:10%;padding:7px"></span></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#"><span class="fa fa-envelope-square" style="font-size:60px;color:red;background-color:white;border-radius:10%;padding:7px"></span></a>
+                        </div>
+                   </div>    
+                
 				</div>
 				<div class="col-lg-6 mt-lg-0 mt-sm-5 mt-4">
 					
 					<p class="mb-4">Get involved and stay up to date with what's happening.</p>
 					@if(Session::has('success'))
-	    <div class="alert alert-success">
-	      {{ Session::get('success') }}
-	    </div>
-	@endif
+                        <div class="alert alert-success">
+                          {{ Session::get('success') }}
+                        </div>
+                    @endif
 
 
-	{!! Form::open(['route'=>'contactus.store']) !!}
+                    {!! Form::open(['route'=>'contactus.store']) !!}
 
 
-		<div class="form-group {{ $errors->has('name') ? 'has-error' : '' }}">
-			{!! Form::label('Name:') !!}
-			{!! Form::text('name', old('name'), ['class'=>'form-control', 'placeholder'=>'Enter Name']) !!}
-			<span class="text-danger">{{ $errors->first('name') }}</span>
-		</div>
+                        <div class="form-group {{ $errors->has('name') ? 'has-error' : '' }}">
+                            {!! Form::label('Name:') !!}
+                            {!! Form::text('name', old('name'), ['class'=>'form-control', 'placeholder'=>'Enter Name']) !!}
+                            <span class="text-danger">{{ $errors->first('name') }}</span>
+                        </div>
 
 
-		<div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
-			{!! Form::label('Email:') !!}
-			{!! Form::text('email', old('email'), ['class'=>'form-control', 'placeholder'=>'Enter Email']) !!}
-			<span class="text-danger">{{ $errors->first('email') }}</span>
-		</div>
+                        <div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
+                            {!! Form::label('Email:') !!}
+                            {!! Form::text('email', old('email'), ['class'=>'form-control', 'placeholder'=>'Enter Email']) !!}
+                            <span class="text-danger">{{ $errors->first('email') }}</span>
+                        </div>
 
 
-		<div class="form-group {{ $errors->has('message') ? 'has-error' : '' }}">
-			{!! Form::label('Message:') !!}
-			{!! Form::textarea('message', old('message'), ['class'=>'form-control', 'placeholder'=>'Enter Message']) !!}
-			<span class="text-danger">{{ $errors->first('message') }}</span>
-		</div>
+                        <div class="form-group {{ $errors->has('message') ? 'has-error' : '' }}">
+                            {!! Form::label('Message:') !!}
+                            {!! Form::textarea('message', old('message'), ['class'=>'form-control', 'placeholder'=>'Enter Message']) !!}
+                            <span class="text-danger">{{ $errors->first('message') }}</span>
+                        </div>
 
 
-		<div class="form-group">
-			<button class="btn btn-success">Contact US!</button>
-		</div>
+                        <div class="form-group">
+                            <button class="btn btn-success">Contact US!</button>
+                        </div>
 
 
-	{!! Form::close() !!}
+                    {!! Form::close() !!}
 				</div>
 			</div>
 		</div>
