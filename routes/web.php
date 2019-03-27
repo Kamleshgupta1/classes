@@ -21,12 +21,18 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resources([
-    'posts' => 'PostsController',
+    'posts' => 'BlogController',
     'banners' => 'PostsController'
 ]);
 
 Route::get('contact-us', 'ContactUSController@contactUS');
 Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@contactUSPost']);
 
+/*Route::get([
+    'home' => 'CategoryController@manageCategory',
+    'category-tree-view' => 'CategoryController@manageCategory'
+]);*/
+Route::get('home',['uses'=>'CategoryController@homeshow']);
 Route::get('category-tree-view',['uses'=>'CategoryController@manageCategory']);
 Route::post('add-category',['as'=>'add.category','uses'=>'CategoryController@addCategory']);
+Route::post('category-tree-view','CategoryController@store');

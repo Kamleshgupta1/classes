@@ -56,6 +56,9 @@
             <a class="nav-link js-scroll-trigger" href="#how">Scope</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="{{ url('/posts') }}">Blog</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
@@ -64,7 +67,7 @@
           <li class="nav-item">
             @auth
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="{{ url('/home') }}">Dashboard</a>
+                <a class="nav-link js-scroll-trigger" href="{{ url('/home') }}">Home</a>
               </li>
                 @else
               <li class="nav-item">
@@ -202,6 +205,102 @@
 		</div>
 	</div>
 </section>
+ 
+<!-- Professior info-->   
+<div class="teacher" id="about"> 
+    <div class="intro" style="color:purple">
+        <br><br>
+        <h5>Our Professior</h5>
+    </div>
+<div class="row">      
+<div class="col-2 mb-1">       
+<div class="flip-card teacher1 mb-1">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="/storage/cover_images/noimage.jpg" alt="Avatar">
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-2">     
+<div class="flip-card teacher2">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="/storage/cover_images/noimage.jpg" alt="Avatar">
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>   
+</div>
+<div class="col-2">     
+<div class="flip-card teacher3">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="/storage/cover_images/noimage.jpg" alt="Avatar">
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>   
+</div> 
+<div class="col-2">     
+<div class="flip-card teacher4">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="/storage/cover_images/noimage.jpg" alt="Avatar">
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>   
+</div>    
+<div class="col-2"> 
+<div class="flip-card teacher5">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="/storage/cover_images/noimage.jpg" alt="Avatar">
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>         
+</div>    
+<div class="col-2"> 
+<div class="flip-card teacher6">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="/storage/cover_images/noimage.jpg" alt="Avatar">
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>         
+</div>    
+</div>  
+</div>              
+<!-- Professior info-->        
+        
         
 <!-- subscribe -->
 <section class="subscribe" id="contact">

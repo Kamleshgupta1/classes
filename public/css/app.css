@@ -10847,6 +10847,107 @@ body {
 
 /*-- how we work --*/
 
+/*-- teacher --*/
+
+.teacher {
+  background: url(/storage/cover_images/teacher-bg.png) no-repeat center;
+  background-size: cover;
+  height: 600px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.teacher1 {
+  margin-top: 40px;
+}
+
+.teacher2 {
+  margin-top: 70px;
+}
+
+.teacher3 {
+  margin-top: 100px;
+}
+
+.teacher4 {
+  margin-top: 130px;
+}
+
+.teacher5 {
+  margin-top: 160px;
+}
+
+.teacher6 {
+  margin-top: 190px;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 250px;
+  border: 1px solid #f1f1f1;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+  border-style: none;
+}
+
+/* This container is needed to position the front and back side */
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+
+.flip-card:hover .flip-card-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+
+.flip-card-back {
+  background-color: transparent;
+  color: #ef6926;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  font-family: "Kaushan Script", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/*-- teacher --*/
+
 /*-- subscribe --*/
 
 .subscribe {
@@ -10922,7 +11023,8 @@ body {
 /*-- footer --*/
 
 footer {
-  background: #222;
+  background: url(/storage/cover_images/footer-bg.png) no-repeat center;
+  background-size: cover;
 }
 
 .logos {
@@ -11013,6 +11115,8 @@ a:active {
 a {
   text-decoration: none !important;
 }
+
+/* ---------------home page--------------------- */
 
 .navbar-laravel {
   background-color: #fff;
